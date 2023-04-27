@@ -17,9 +17,10 @@ public class Main {
         System.out.println("the seat booked for " + martian + " is "+ zura.getSeatType(martian));
         zura.bookSeat(human);
         System.out.println("the seat booked for " + human + " is "+ zura.getSeatType(human));
-        Pluto pluto = new Pluto();
 
+        Pluto pluto = new Pluto();
         System.out.println(human.plutoBelief(pluto));
+        System.out.println(martian.plutoBelief(pluto));
 
 
     }
