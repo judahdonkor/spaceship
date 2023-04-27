@@ -14,7 +14,7 @@ public class Human extends Passenger {
 
     @Override
     public String plutoBelief(Pluto pluto) {
-        return pluto + "is a moon";
+        return pluto + " is a moon";
     }
 
 }

@@ -14,7 +14,7 @@ public class Martian extends Passenger {
 
     @Override
     public String plutoBelief(Pluto pluto) {
-        return pluto + "is a planet";
+        return pluto + " is a planet";
     }
 
 
